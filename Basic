@@ -1,0 +1,19 @@
+#include <iostream>
+using namespace std;
+int main()
+{
+	int A, B, C;
+
+	cout << "Enter your first number";
+	cin >> A;
+	cout << "Enter your second number";
+	cin >> B;
+	cout << "Enter your thirds number";
+	cin >> C;
+
+	cout << "A\t B\t C\t" << endl;
+	cout << A * 2 << "\t" << B * 2 << "\t" << C * 2 << endl;
+	cout << A + 3 << "\t" << B + 2 << "\t" << C + 2 << endl;
+
+	system("pause");
+}
